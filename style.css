@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cantainer {
+    background: rgb(139, 190, 190);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.caluculator {
+    background-color: rgb(31, 28, 28); 
+    padding:10px ;
+    border-radius: 15px;
+}
+.caluculator form input {
+    background: transparent;
+    width: 30px;
+    height: 20px;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+form .display {
+    display: flex;
+    justify-content: end;
+    margin: 20px 0;
+    background-color: rgba(44, 41, 41, 0.897);
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 20px;
+    box-shadow: none;
+}
+form input.equal {
+    width: 80px;
+}
+
+form input.operator {
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
